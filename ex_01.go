@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type canine struct {
 	name string
@@ -11,7 +13,7 @@ func main() {
 
 	fido := canine{
 		name: "test",
-		age:  dog.Years(10),
+		age:  dog.Years(7),
 	}
 	fmt.Println(fido)
 }

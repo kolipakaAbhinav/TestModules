@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	dog "testmymodules/go/dog"
 )
 
 type canine struct {
